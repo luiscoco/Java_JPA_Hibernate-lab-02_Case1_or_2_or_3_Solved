@@ -68,4 +68,16 @@ Composite with identity fields inside the entity class (using @IdClass)
 
 ## Solution
 
+Replace 1 with 2 or 3 to run other cases:
 
+```
+Case 1: mvn --% exec:java -Dexec.args=1
+
+Case 2: mvn --% exec:java -Dexec.args=2
+
+Case 3: mvn --% exec:java -Dexec.args=3
+```
+
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/32cbf05e-26f4-496a-a9c0-97e7e57f52f0" />
+
+<img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/9ec11f50-6ae5-4fc0-945f-f9e86eec3eee" />

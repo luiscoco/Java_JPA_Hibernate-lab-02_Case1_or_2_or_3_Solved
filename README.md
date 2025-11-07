@@ -20,9 +20,7 @@ There is a Department entity (with fields: companyName, name and description) an
 
 You need to implement all three cases.
 
-Description
-
-Single identity
+**CASE #1: Single identity**
 
 1.	Open module jpa-lab-02
 
@@ -34,7 +32,7 @@ Single identity
 
 5.	Specify field-level annotation @GeneratedValue for id field. This applies particular identity generation strategy for this field (here the default one will be applied).
 
-Composite with identity as separate class (using @EmbeddedId)
+**CASE #2: Composite with identity as separate class (using @EmbeddedId)**
 
 6.	Open class edu.jpa.entity.DepartmentKey. This class represents the entity identity (company name + department name).
 
@@ -46,7 +44,7 @@ Composite with identity as separate class (using @EmbeddedId)
 
 10.	Specify field-level annotation @EmbeddedId for field id (of type DepartmentKey).
 
-Composite with identity fields inside the entity class (using @IdClass)
+**CASE #3: Composite with identity fields inside the entity class (using @IdClass)**
 
 11.	Open class edu.jpa.entity.DepartmentKey
 
